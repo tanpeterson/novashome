@@ -1,3 +1,7 @@
+body {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
 .App {
   text-align: center;
 }
@@ -11,17 +15,49 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #fff;
+  position: fixed; 
+  top: 0;
+  width: 100%;
+  background-color: #413c6900;
+  color: hsla(301, 30%, 32%, 0.89);
+}
+
+.AppName {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 0.5em 1.5em;
+}
+
+.NavbarLinks {
+  padding-right: 1vw;
+}
+
+.IntroContainer {
+  /* background-color: #413C69; */
+  display: flex;
+  flex-direction: column;
+  background-image: url('./background/space.jpeg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 150vh;
+}
+
+.IntroAppName {
+  margin: 0;
+}
+
+
+.IntroDiv {
+  padding-top: 43vh;
+  color: #AD62AA;
 }
 
 .links-box {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-}
-
-.Demo {
-  max-height: 600px;
 }
 
 .links-div {
@@ -37,7 +73,9 @@
   max-height: 60px;
 }
 
-
+.Demo {
+  max-height: 600px;
+}
 
 .footer {
   position: absolute;
@@ -46,19 +84,16 @@
   height: 2.5rem;
 }
 
-.AppName {
-  font-size: 1.5rem;
-  font-weight: bold;
-}
-
 .navbar-denologo{
-  max-width: 35px;
-  max-height: 35px;
+  filter: opacity(0.2) drop-shadow(0 0 #AD62AA) drop-shadow(0 0 #AD62AA);
+  max-width: 40px;
+  max-height: 40px;
 }
 
 .navbar-githublogo, .createdBy-githublogo{
-  max-width: 34px;
-  max-height: 32px;
+  filter: opacity(0.2) drop-shadow(0 0 #AD62AA) drop-shadow(0 0 #AD62AA);
+  max-width: 39px;
+  max-height: 37px;
 }
 
 .oslabslogo {
@@ -92,9 +127,8 @@ a{
   align-items: center;
 }
 
-body {
-  background-color: #945cf0;
-}
+/* body {
+} */
 
 #page-container {
   position: relative;
