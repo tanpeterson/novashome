@@ -6,6 +6,7 @@ import Links from './Links'
 import Footer from './Footer';
 import CreatedBy from './CreatedBy';
 import Demo from './Demo';
+import InstallCode from './InstallCode';
 
 function App() {
   return (
@@ -18,8 +19,10 @@ function App() {
             <Navbar/>
             <Intro/>
             <About/>
+            <InstallCode/>
             <Demo/>
             <Links />
+            <hr/>
             <CreatedBy/>
           </div>
           <Footer/>
