@@ -6,7 +6,7 @@ export default function CreatedBy() {
       <h1 className='CreatedByTitle'>Created By</h1>
       <div className="createdBy">
           <div className="createdBy-box-person">
-            <img className='ProfilePicture' src="https://www.looper.com/img/gallery/things-only-adults-notice-in-shrek/intro-1573597941.jpg" alt=""/>
+            <img className='ProfilePicture' src="/images/red.png" alt=""/>
             <div className='CreateByNameLink'>
               <h2>Christie Herring</h2>
               <div className='CreateByLinkNameLink'>
@@ -16,7 +16,7 @@ export default function CreatedBy() {
             </div>
           </div>
           <div className="createdBy-box-person">
-            <img className='ProfilePicture' src="https://farm9.static.flickr.com/8600/15672821850_79be13165d_b.jpg" alt=""/>
+            <img className='ProfilePicture' src="/images/scope.png" alt=""/>
             <div className='CreateByNameLink'>
               <h2>Garrett Hickman</h2>
               <div>
@@ -26,7 +26,7 @@ export default function CreatedBy() {
             </div>
           </div>
           <div className="createdBy-box-person">
-            <img className='ProfilePicture' src="/images/sylvialiu.jpeg" alt=""/>
+            <img className='ProfilePicture' src="/images/moon.png" alt=""/>
             <div className='CreateByNameLink'>
               <h2>Sylvia Liu</h2>
               <div className='CreateByLinkNameLink'>
@@ -36,7 +36,7 @@ export default function CreatedBy() {
             </div>
           </div>
           <div className="createdBy-box-person">
-            <img className='ProfilePicture' src="https://i.ytimg.com/vi/Fz228dAanO8/maxresdefault.jpg" alt=""/>
+            <img className='ProfilePicture' src="/images/star.png" alt=""/>
             <div className='CreateByNameLink'>
               <h2>Tanner Peterson</h2>
                 <div className='CreateByLinkNameLink'>
