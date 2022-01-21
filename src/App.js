@@ -22,7 +22,7 @@ function App() {
             <InstallCode/>
             <Demo/>
             <Links />
-            <hr/>
+            {/* <hr/> */}
             <CreatedBy/>
           </div>
           <Footer/>

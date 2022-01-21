@@ -1,6 +1,11 @@
 body {
   font-family: 'Josefin Sans', sans-serif;
-  background-color: #ffffdc;
+  background-image: url('./background/space.jpeg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
 }
 
 .App {
@@ -34,32 +39,26 @@ body {
 }
 
 .IntroContainer {
-  /* background-color: #413C69; */
   display: flex;
   flex-direction: column;
-  background-image: url('./background/space.jpeg');
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
   height: 150vh;
 }
 
-.AboutLeftText {
+.AboutSvelteDenoText {
   display: flex;
 }
 
-.AboutRightText {
+.AboutNovasText {
   display: flex;
   flex-direction: row-reverse;
 }
 
-.AboutLeft-Sveltelogo{
+.AboutSvelteLogo{
   margin-left: 200px;
   height: 150px;
   width: 150px;
 }
-.AboutLeft-Denologo{
+.AboutDenoLogo{
   margin-right: 200px;
   height: 150px;
   width: 150px;
@@ -71,11 +70,6 @@ body {
   flex-direction: column;
   align-items: center;
   height: 125vh;
-  background-image: url('./background/space.jpeg');
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .CreatedByContainer {
@@ -105,16 +99,17 @@ body {
   color: #AD62AA;
 }
 
-.AboutDiv {
+.AboutContainer {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  background-color: #ffffdc;
   font-size: 1.5rem;
   height: 125vh;
 }
 
-.AboutLeft {
+.AboutSvelteDeno {
   flex: 1;
   padding: 2.5em 20em 2.5em 0;
   text-align: left;
@@ -126,7 +121,7 @@ body {
   line-height: 1.25em;
 }
 
-.AboutRight {
+.AboutNovas {
   flex: 1;
   padding: 2.5em 0 2.5em 20em;
   text-align: right;
@@ -138,7 +133,7 @@ body {
   line-height: 1.25em;
 }
 
-.AboutRight p {
+.AboutNovas p {
   min-height: 450px;
 }
 
@@ -147,6 +142,7 @@ body {
   flex-direction: row;
   justify-content: space-around;
   padding-bottom: 40px;
+  background-color: #ffffdc;
 }
 
 .links-div {
@@ -163,12 +159,14 @@ body {
 }
 
 .DemoDiv{
+  background-color: #ffffdc;
   padding-top: 100px;
   padding-bottom: 75px;
 }
 
 .Demo {
   max-height: 600px;
+  image-resolution: medium;
 }
 
 .footer {
@@ -191,6 +189,7 @@ body {
 }
 
 .oslabslogo {
+  image-resolution: low;
   max-width: 150px;
   max-height: 150px;
 }
@@ -203,13 +202,14 @@ a{
   text-decoration: none;
 }
 .ProfilePicture{
+  image-resolution: low;
   max-width: 100px;
   max-height: 100px;
   min-width: 100px;
   min-height: 100px;
 }
 
-.CreateByNameLink{
+.CreatorCard{
   display: flex;
   flex-direction: column-reverse;
   justify-content: center;
@@ -230,13 +230,13 @@ a{
   margin-top: 1rem;
 }
 
-.createdBy-box-person {
+.CreatorCardContainer {
   flex: 1;
   padding-right: 35px;
   min-width: 230px;
 }
 
-.CreateByNameLink h2 {
+.CreatorCard h2 {
   margin-top: 0;
   margin-bottom: 30px;
 }
@@ -251,7 +251,7 @@ a{
   padding-bottom: 60px;
 }
 
-.CreateByLinkNameLink{
+.CreatorSocial{
   padding-right: 10px;
 }
 
